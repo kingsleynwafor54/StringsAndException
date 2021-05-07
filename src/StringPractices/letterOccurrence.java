@@ -14,8 +14,6 @@ public class letterOccurrence {
         characterSearch(s,k);
     }
         public static void characterSearch (String input1,char input2){
-
-
             int count = 0;
             int counter = 0;
             for (; counter < input1.length() - 1; counter++) {
