@@ -34,7 +34,6 @@ public MavenMobilePhone(String imeiNumber,PhoneManufacturer phoneMake){
     public MavenMobilePhone(String imeiNumber, PhoneManufacturer phoneMake, String phoneModel){
         this(imeiNumber,phoneMake);
         make=phoneMake;
-       // make=phoneMake;
     }
     public MavenMobilePhone(String imeiNumber,PhoneManufacturer phoneMake, int storageSpace , String phoneModel){
         this(imeiNumber,phoneMake,phoneModel);
