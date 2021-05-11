@@ -1,4 +1,4 @@
-package ChapterFifteen;
+package ChapterFive;
 
 public class Diamond {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package ChapterFifteen;
+package ChapterFive;
 
 import BeanException.EncryptingAndDecryptingMessage;
 
@@ -11,7 +11,7 @@ public class EncryptingNumbers {
         System.out.println("Please Enter A Four Digit Number");
         int number=scanner.nextInt();
         System.out.println(sc.encryptingMessage(number));
-        System.out.println( sc.decryptingMessage(number));
+        System.out.println( sc.decryptingMessage(2143));
 
 
     }

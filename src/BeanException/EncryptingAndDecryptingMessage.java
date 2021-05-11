@@ -19,20 +19,20 @@ public class EncryptingAndDecryptingMessage {
         int secondDigit=(message%1000)/100;
         int thirdDigit=((message%1000)%100)/10;
         int fourthDigit=((((message%1000)%100)%10)%10);
-        if(firstDigit<7){
+        if(firstDigit<=7){
             firstDigit+=10-7;
         }else firstDigit-=7;
 
-        if(secondDigit<7){
+        if(secondDigit<=7){
             secondDigit+=10-7;
         }else secondDigit-=7;
 
 
-        if(thirdDigit<7){
+        if(thirdDigit<=7){
             thirdDigit+=10-7;
         }else thirdDigit-=7;
 
-        if(fourthDigit<7){
+        if(fourthDigit<=7){
             fourthDigit+=10-7;
         }else fourthDigit-=7;
 
@@ -44,7 +44,7 @@ public class EncryptingAndDecryptingMessage {
     public static void main(String[] args) {
         EncryptingAndDecryptingMessage sc=new EncryptingAndDecryptingMessage();
         System.out.println( sc.encryptingMessage(2345));
-        System.out.println(sc.decryptingMessage(1290));
+       System.out.println(sc.decryptingMessage(1290));
 
     }
 }
