@@ -14,6 +14,7 @@ public class PiiValue {
         else {
             pii =pii +(double)4/(i+(i-1));
           }
+            System.out.println(pii);
         }
     }
 }

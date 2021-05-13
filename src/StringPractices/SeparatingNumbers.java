@@ -27,7 +27,7 @@ public class SeparatingNumbers {
 //            return separatorRemainder(a,b);
 //        }
 public static String displayMethod(int  value){
-        int unit=0;
+        int unit;
         String newValue=" ";
         while (value>0){
            unit=separatorRemainder( value,10);
@@ -36,6 +36,7 @@ public static String displayMethod(int  value){
 
 
         }
+
     return newValue;
     }
         public static void main(String[] args) {
