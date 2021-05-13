@@ -1,6 +1,6 @@
 package ChapterFive;
 
-public class Diamond {
+public class  Diamond {
     public static void main(String[] args) {
         for (int counter = 1; counter < 9; counter += 2) {
             for (int space = 9; space >= counter; space -= 2) {

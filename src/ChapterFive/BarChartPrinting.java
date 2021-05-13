@@ -6,17 +6,22 @@ public class BarChartPrinting {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String asteristic = "*";
-        System.out.print("Enter the number of asterisks you want");
+        int num = 0;
+        System.out.print("Enter the number of asterisks you want five(5)times");
         for (int counter = 0; counter < 5; counter++) {
-            int num = sc.nextInt();
+            num = sc.nextInt();
             if (num >= 1 && num <= 30) {
-                for (int count = 0; count < num; count++) {
-                    System.out.print("*");
+
+
+                {
+                    for (int count = 0; count < num; count++) {
+                        System.out.print("*");
+                    }
+
+                    System.out.println();
                 }
 
-                System.out.println();
             }
-
         }
-    }
-}
+
+    }}

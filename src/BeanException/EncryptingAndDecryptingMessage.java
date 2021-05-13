@@ -1,5 +1,7 @@
 package BeanException;
 
+import java.util.Scanner;
+
 public class EncryptingAndDecryptingMessage {
     public  int encryptingMessage(int message){
 
@@ -42,9 +44,14 @@ public class EncryptingAndDecryptingMessage {
         return thirdDigit+fourthDigit+firstDigit+secondDigit;
     }
     public static void main(String[] args) {
-        EncryptingAndDecryptingMessage sc=new EncryptingAndDecryptingMessage();
-        System.out.println( sc.encryptingMessage(2345));
-       System.out.println(sc.decryptingMessage(1290));
+        Scanner sc=new Scanner(System.in);
+        EncryptingAndDecryptingMessage k=new EncryptingAndDecryptingMessage();
+        System.out.println("Enter your message");
+        int message=sc.nextInt();
+        System.out.println( k.encryptingMessage(message));
+        System.out.println("Enter your message");
+        int message2=sc.nextInt();
+       System.out.println(k.decryptingMessage(message2));
 
     }
-}
+ }
