@@ -22,7 +22,7 @@ public class ReversingDigits {
    return palindrome;
     }
     public static void main(String[] args) {
-        System.out.println( reversingDigits(111));
+        System.out.println( reversingDigits(12351));
         System.out.println(palindromeNumbers(123));
         System.out.println(stringPalindrome("king"));
 
