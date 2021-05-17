@@ -2,6 +2,7 @@ package ChapterSix;
 
 public class PerfectNumbers {
     public static int perfectNumberDetermination(int a) {
+        int perfectNumber=0; 
         int counter = 1;
         int sum = 0;
 
@@ -12,7 +13,6 @@ public class PerfectNumbers {
         }
         if (a == sum)
             System.out.println("Correct Bro " + sum);
-
 
         return sum;
     }
@@ -27,7 +27,7 @@ public class PerfectNumbers {
     }
 
     public static void main(String[] args) {
-        System.out.println(perfectNumberDetermination(100));
+        //System.out.println(perfectNumberDetermination(6));
         System.out.println(theFirst_100_PerfectNumber());
     }
 }

@@ -9,9 +9,8 @@ public class GuessGame {
         SecureRandom secureRandom=new SecureRandom();
             int correctScore=secureRandom.nextInt(1000);
             int counter=0;
-        System.out.println("Input userInput");
-
             while(counter<3) {
+                System.out.println("Please Enter Your Guess Number");
                 int userInput = sc.nextInt();
                 if (userInput >= 0 && userInput <= 1000) {
                     if (userInput == correctScore) {

@@ -1,7 +1,7 @@
 package ChapterSix;
 
 public class ReversingDigits {
-    public static int reversingDigits(int digit) {
+    public  int reversingDigits(int digit) {
         int number;
         int reverseNumber = 0;
         while (digit > 0) {
@@ -12,7 +12,7 @@ public class ReversingDigits {
 
         return reverseNumber;
     }
-    public static String palindromeNumbers(int digit){
+    public  String palindromeNumbers(int digit){
         String palindrome="";
         if (digit==reversingDigits(digit)){
             palindrome=digit+" is a palindrome";
@@ -22,8 +22,9 @@ public class ReversingDigits {
    return palindrome;
     }
     public static void main(String[] args) {
-        System.out.println( reversingDigits(12351));
-        System.out.println(palindromeNumbers(123));
+        ReversingDigits reversingDigits= new ReversingDigits();
+        System.out.println( reversingDigits.reversingDigits(12351));
+        System.out.println(reversingDigits.palindromeNumbers(123));
         System.out.println(stringPalindrome("king"));
 
     }
